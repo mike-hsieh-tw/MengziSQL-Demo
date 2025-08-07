@@ -1,0 +1,8 @@
+# 忽略所有檔案
+*
+
+# 保留
+!.gitignore
+!README.md
+!NL2SQL.ipynb
+
