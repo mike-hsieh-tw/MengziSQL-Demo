@@ -50,9 +50,10 @@ pip install transformers sentencepiece datasets accelerate pandas
 #### 4. 進行推論 (NL2SQL)
 
 *   載入您剛剛在 `./sql_model` 中儲存的微調模型。
-*   提供一個中文問題 (例如，「查詢所有顧客的姓名」)。
+*   提供一個中文問題 (例如，「誰住台北」)。
 *   模型將生成對應的 SQL 查詢。
 *   腳本會執行此 SQL 查詢並顯示結果。
+*   <img width="486" height="250" alt="image" src="https://github.com/user-attachments/assets/3e1f0e99-581a-40eb-9595-cd71cdb29df1" />
 
 ### 📂 檔案結構
 
@@ -114,9 +115,10 @@ Run the initial cells in `NL2SQL.ipynb` to:
 #### 4. Perform Inference (NL2SQL)
 
 *   Load the fine-tuned model you just saved from `./sql_model`.
-*   Provide a Chinese question (e.g., "查詢所有顧客的姓名" - "Query all customer names").
+*   Provide a Chinese question (e.g., "誰住台北" ).
 *   The model will generate the corresponding SQL query.
 *   The script will execute this SQL query and display the results.
+*   <img width="486" height="250" alt="image" src="https://github.com/user-attachments/assets/9a5eb9eb-d14d-4712-b6ae-ea08f0472924" />
 
 ### 📂 File Structure
 
